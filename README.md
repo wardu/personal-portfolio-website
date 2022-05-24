@@ -1,3 +1,3 @@
-# Personal Website made with React
+# Personal Portfolio Website - made with React
 
-Live: https://wardu.github.io/REACT-PORTFOLIO-1/
+Live Demo: https://wardu.github.io/REACT-PORTFOLIO-1/

@@ -12,7 +12,7 @@ const data = [
     blurb:
       'An implementation of the Aave flashloan feature, made for the ETHGlobal hackathon.',
     github: 'https://github.com/wardu/trebuchet',
-    demo: 'https://dribbble.com/Alien_pixels',
+    demo: '#',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const data = [
     blurb:
       'Web App that can be used to predict the future worth of a defi investment.',
     github: 'https://github.com/wardu/DeFi-calc',
-    demo: 'https://dribbble.com/Alien_pixels',
+    demo: '#',
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const data = [
     blurb:
       'The smart contracts capable of handling a horse race gambling game.',
     github: 'https://github.com/wardu/horse-race-simulation',
-    demo: 'https://dribbble.com/Alien_pixels',
+    demo: '#',
   },
 ];
 

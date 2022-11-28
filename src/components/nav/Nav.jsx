@@ -1,11 +1,11 @@
-import React from "react";
-import "./nav.scss";
 import { FiHome } from "react-icons/fi";
 import { CgProfile } from "react-icons/cg";
 import { AiOutlineFolderView } from "react-icons/ai";
 import { IoHammerOutline } from "react-icons/io5";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { useState } from "react";
+
+import "./nav.scss";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");

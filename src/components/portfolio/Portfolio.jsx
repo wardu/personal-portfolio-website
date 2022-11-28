@@ -8,28 +8,28 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Trebuchet",
+    title: "Mars DAO",
     blurb:
-      "An implementation of the Aave flashloan feature, made for the ETHGlobal hackathon.",
-    github: "https://github.com/wardu/trebuchet",
-    demo: "#",
+      "An MVP frontend to Mars DAO (Decentralised Autonomous Organisation). DAOs are made possible through blockchain technology. This project is a proof-of-concept and currently uses a traditional backend for data saving and retrieval. ",
+    github: "https://github.com/wardu/Mars-DAO",
+    demo: "https://mars-dao-wardu.vercel.app/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "DeFi Calculator",
+    title: "Blackjack Game",
     blurb:
-      "Web App that can be used to predict the future worth of a defi investment.",
-    github: "https://github.com/wardu/DeFi-calc",
-    demo: "#",
+      "An implementation of the classic casino game Blackjack. This project was built using JQuery. The game is playable on desktop and mobile devices.",
+    github: "https://github.com/wardu/blackjack",
+    demo: "https://wardu.github.io/blackjack/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Horse Race Simulator",
+    title: "In Stock Warehouse App",
     blurb:
-      "The smart contracts capable of handling a horse race gambling game.",
-    github: "https://github.com/wardu/horse-race-simulation",
+      "Built in collaboration, this app is designed to help warehouse managers keep track of stock levels. The app is built within the MVP design framework.",
+    github: "https://github.com/wardu/inStock",
     demo: "#",
   },
 ];
@@ -43,12 +43,12 @@ const Portfolio = () => {
       <div className='container portfolio__container'>
         {data.map(({ id, image, title, blurb, github, demo }) => {
           return (
-            <article className='portfolio__item'>
+            <article key={id} className='portfolio__item'>
               <div className='portfolio__item-image'>
                 <img src={image} alt={title} />
               </div>
-              <h4>{title}</h4>
-              <h4>{blurb}</h4>
+              <h4 className='blurb__title'>{title}</h4>
+              <h4 className='blurb'>{blurb}</h4>
               <div className='portfolio__item-cta'>
                 <a
                   href={github}

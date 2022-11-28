@@ -1,8 +1,8 @@
-import React from 'react';
-import './contact.css';
-import { AiOutlineMail } from 'react-icons/ai';
-import { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import React from "react";
+import "./contact.scss";
+import { AiOutlineMail } from "react-icons/ai";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = useRef();

@@ -1,9 +1,9 @@
-import React from 'react';
-import './about.css';
-import TRANS from '../../assets/transaction.jpg';
-import { FiGlobe } from 'react-icons/fi';
-import { FaBalanceScaleRight } from 'react-icons/fa';
-import { MdOutlineLibraryBooks } from 'react-icons/md';
+import React from "react";
+import "./about.scss";
+import TRANS from "../../assets/transaction.jpg";
+import { FiGlobe } from "react-icons/fi";
+import { FaBalanceScaleRight } from "react-icons/fa";
+import { MdOutlineLibraryBooks } from "react-icons/md";
 
 const About = () => {
   return (

@@ -1,7 +1,7 @@
-import React from 'react';
-import './footer.css';
-import { RiTwitterLine } from 'react-icons/ri';
-import { AiOutlineGithub } from 'react-icons/ai';
+import React from "react";
+import "./footer.scss";
+import { RiTwitterLine } from "react-icons/ri";
+import { AiOutlineGithub } from "react-icons/ai";
 
 const Footer = () => {
   return (

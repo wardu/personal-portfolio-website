@@ -1,6 +1,6 @@
-import React from 'react';
-import './services.css';
-import { AiOutlineCode } from 'react-icons/ai';
+import React from "react";
+import "./services.scss";
+import { AiOutlineCode } from "react-icons/ai";
 
 const Services = () => {
   return (

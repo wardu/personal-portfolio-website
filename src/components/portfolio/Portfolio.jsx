@@ -41,7 +41,6 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className='container portfolio__container'>
-        {/* These brackets enter JavaScript Mode */}
         {data.map(({ id, image, title, blurb, github, demo }) => {
           return (
             <article className='portfolio__item'>
@@ -51,10 +50,20 @@ const Portfolio = () => {
               <h4>{title}</h4>
               <h4>{blurb}</h4>
               <div className='portfolio__item-cta'>
-                <a href={github} className='btn' target='_blank'>
+                <a
+                  href={github}
+                  className='btn'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   Github
                 </a>
-                <a href={demo} className='btn btn-primary' target='_blank'>
+                <a
+                  href={demo}
+                  className='btn btn-primary'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   Live Demo
                 </a>
               </div>

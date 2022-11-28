@@ -1,12 +1,7 @@
-import React from "react";
 import "./contact.scss";
 import { AiOutlineMail } from "react-icons/ai";
-import { useRef } from "react";
-import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const form = useRef();
-
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -18,6 +13,7 @@ const Contact = () => {
             <h4>Email</h4>
             <h6>warrendubery@gmail.com</h6>
             <a
+              className='contact__link'
               href='mailto:warrendubery@gmail.com'
               target='_blank'
               rel='noreferrer'

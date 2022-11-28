@@ -1,4 +1,3 @@
-import React from "react";
 import "./services.scss";
 import { AiOutlineCode } from "react-icons/ai";
 
@@ -11,13 +10,13 @@ const Services = () => {
       <div className='container services__container'>
         <article className='services'>
           <div className='service__head'>
-            <h3>Smart Contracts</h3>
+            <h3>Back end engineering</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <AiOutlineCode className='service__list-icon' />
-              <p>EVM based blockchains</p>
+              <p>Building scalable APIs</p>
             </li>
             <li>
               <AiOutlineCode className='service__list-icon' />
@@ -27,31 +26,25 @@ const Services = () => {
               <AiOutlineCode className='service__list-icon' />
               <p>DeFi bots</p>
             </li>
-            <li>
-              <AiOutlineCode className='service__list-icon' />
-              <p>DAOs</p>
-            </li>
           </ul>
         </article>
-        {/* END OF UI/UX */}
 
         <article className='services'>
           <div className='service__head'>
-            <h3>Web Development</h3>
+            <h3>Front end web development</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <AiOutlineCode className='service__list-icon' />
-              <p>Website</p>
+              <p>Website design and build from scratch</p>
             </li>
             <li>
               <AiOutlineCode className='service__list-icon' />
-              <p>Web App</p>
+              <p>Dynamic Web Apps</p>
             </li>
           </ul>
         </article>
-        {/* END OF WEB DEVELOPMENT */}
 
         <article className='services'>
           <div className='service__head'>
@@ -73,7 +66,6 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        {/* END OF DESIGN */}
       </div>
     </section>
   );

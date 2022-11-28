@@ -1,6 +1,5 @@
-import React from "react";
 import "./about.scss";
-import TRANS from "../../assets/transaction.jpg";
+import mars from "../../assets/mars-screenshot.png";
 import { FiGlobe } from "react-icons/fi";
 import { FaBalanceScaleRight } from "react-icons/fa";
 import { MdOutlineLibraryBooks } from "react-icons/md";
@@ -13,41 +12,39 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={TRANS} alt='About Me' />
+            <img src={mars} alt='About Me' />
           </div>
         </div>
         <div className='about__content'>
           <div className='about__cards'>
             <article className='about__card'>
               <FiGlobe className='about__icon' />
-              <h5>Web 3.0</h5>
+              <h5>Full Stack Development</h5>
               <small>
-                Building the infrastructure for the distributed internet.
+                I've been building websites and apps since 2017. I enjoy
+                transforming ideas into reality.
               </small>
             </article>
 
             <article className='about__card'>
               <FaBalanceScaleRight className='about__icon' />
-              <h5>DeFi</h5>
+              <h5>Design</h5>
               <small>
-                Keeping up-to-date with the latest developments in decentralised
-                finance.
+                I value clean design, thoughtful UX/UI and robust architecture.
+                I love to learn and am always trying to develop my craft.
               </small>
             </article>
 
             <article className='about__card'>
               <MdOutlineLibraryBooks className='about__icon' />
-              <h5>Blockchain</h5>
+              <h5>Blockchain & Web 3.0</h5>
               <small>
-                Staying current with the latest in smart contract development.
+                I see the value that Web 3.0 solutions offer. I'm now focussed
+                on leveraging the powers of DeFi using Smart Contracts & Web
+                Development.
               </small>
             </article>
           </div>
-          <p>
-            Blockchain Analyst and developer with a background in topography and
-            physics, now focussed on leveraging the powers of DeFi using Smart
-            Contracts & Web Development.
-          </p>
         </div>
       </div>
     </section>

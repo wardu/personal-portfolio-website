@@ -17,7 +17,11 @@ const Contact = () => {
             <AiOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
             <h6>warrendubery@gmail.com</h6>
-            <a href='mailto:warrendubery@gmail.com' target='_blank'>
+            <a
+              href='mailto:warrendubery@gmail.com'
+              target='_blank'
+              rel='noreferrer'
+            >
               Enquiries
             </a>
           </article>

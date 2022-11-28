@@ -1,14 +1,13 @@
-import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
-import { BsGithub } from 'react-icons/bs';
-import { FiTwitter } from 'react-icons/fi';
-import { RiMediumLine } from 'react-icons/ri';
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+import { FiTwitter } from "react-icons/fi";
+import { RiMediumLine } from "react-icons/ri";
 
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
       <a
-        href='https://www.linkedin.com/in/warren-dubery-2a9a41233/'
+        href='https://www.linkedin.com/in/wardu//'
         target='_blank'
         rel='noreferrer'
       >
@@ -17,11 +16,7 @@ const HeaderSocials = () => {
       <a href='https://github.com/wardu' target='_blank' rel='noreferrer'>
         <BsGithub />
       </a>
-      <a
-        href='https://twitter.com/WarrenDubery'
-        target='_blank'
-        rel='noreferrer'
-      >
+      <a href='https://twitter.com/_wardu' target='_blank' rel='noreferrer'>
         <FiTwitter />
       </a>
       <a

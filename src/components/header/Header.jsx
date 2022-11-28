@@ -1,9 +1,9 @@
-import React from "react";
-import "./header.scss";
 import CTA from "./CTA";
-import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 import { BiRightArrow } from "react-icons/bi";
+
+import "./header.scss";
+import profile from "../../assets/me.png";
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
         <div className='me'>
-          <img src={ME} alt='me' />
+          <img src={profile} alt='profile of Warren Dubery' />
         </div>
         <a href='#contact' className='scroll__down'>
           <BiRightArrow />

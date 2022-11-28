@@ -3,7 +3,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
-
+.blurb,
+.blurb__title {
+  padding: 1em 0 1em 0;
+}
 .portfolio__item {
   background: var(--color-bg-variant);
   padding: 1.3rem;

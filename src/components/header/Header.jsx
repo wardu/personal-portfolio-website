@@ -1,9 +1,9 @@
-import React from 'react';
-import './header.css';
-import CTA from './CTA';
-import ME from '../../assets/me.png';
-import HeaderSocials from './HeaderSocials';
-import { BiRightArrow } from 'react-icons/bi';
+import React from "react";
+import "./header.scss";
+import CTA from "./CTA";
+import ME from "../../assets/me.png";
+import HeaderSocials from "./HeaderSocials";
+import { BiRightArrow } from "react-icons/bi";
 
 const Header = () => {
   return (

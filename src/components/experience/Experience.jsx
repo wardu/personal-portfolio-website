@@ -1,6 +1,6 @@
-import React from 'react';
-import './experience.css';
-import { BsCheckCircle } from 'react-icons/bs';
+import React from "react";
+import "./experience.scss";
+import { BsCheckCircle } from "react-icons/bs";
 
 const Experience = () => {
   return (
@@ -77,7 +77,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsCheckCircle className='experience__details-icon' />
               <div>
-                {' '}
+                {" "}
                 <h4>Solidity</h4>
               </div>
             </article>

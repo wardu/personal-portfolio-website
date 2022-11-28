@@ -1,4 +1,3 @@
-import React from "react";
 import "./experience.scss";
 import { BsCheckCircle } from "react-icons/bs";
 
@@ -16,13 +15,13 @@ const Experience = () => {
             <article className='experience__details'>
               <BsCheckCircle className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
+                <h4>HTML5</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsCheckCircle className='experience__details-icon' />
               <div>
-                <h4>CSS</h4>
+                <h4>SCSS</h4>
               </div>
             </article>
             <article className='experience__details'>
@@ -34,7 +33,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsCheckCircle className='experience__details-icon' />
               <div>
-                <h4>Python</h4>
+                <h4>Figma</h4>
               </div>
             </article>
             <article className='experience__details'>
@@ -46,7 +45,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsCheckCircle className='experience__details-icon' />
               <div>
-                <h4>Bootstrap</h4>
+                <h4>Mobile First</h4>
               </div>
             </article>
           </div>
@@ -77,7 +76,6 @@ const Experience = () => {
             <article className='experience__details'>
               <BsCheckCircle className='experience__details-icon' />
               <div>
-                {" "}
                 <h4>Solidity</h4>
               </div>
             </article>

@@ -21,10 +21,10 @@ const Footer = () => {
         </li>
       </ul>
       <div className='footer__socials'>
-        <a href='https://twitter.com/WarrenDubery'>
+        <a href='https://twitter.com/_wardu' target='blank' rel='noreferrer'>
           <RiTwitterLine />
         </a>
-        <a href='https://github.com/wardu'>
+        <a href='https://github.com/wardu' target='blank' rel='noreferrer'>
           <AiOutlineGithub />
         </a>
       </div>

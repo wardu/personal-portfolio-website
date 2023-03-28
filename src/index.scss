@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400;600&display=swap");
 
 * {
   padding: 0;
@@ -12,8 +12,8 @@
 
 :root {
   --color-bg: #ffffff;
-  --color-bg-variant: #5151634e;
-  --color-primary: #4241672b;
+  --color-bg-variant: #5163564e;
+  --color-primary: #310826;
   --color-primary-variant: #3dabde;
   --color-white: rgb(0, 0, 0);
   --color-light: #000000;
@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  font-family: 'Red Hat Mono', monospace;
+  font-family: "Red Hat Mono", monospace;
   background: var(--color-bg);
   color: black;
   line-height: 1.7;

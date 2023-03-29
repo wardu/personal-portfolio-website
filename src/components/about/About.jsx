@@ -1,20 +1,16 @@
-import "./about.scss";
 import mars from "../../assets/mars-screenshot.png";
 import { FiGlobe } from "react-icons/fi";
 import { FaBalanceScaleRight } from "react-icons/fa";
 import { MdOutlineLibraryBooks } from "react-icons/md";
 
+// Styles
+import "./about.scss";
+
 const About = () => {
   return (
     <section id='about'>
-      <h5>My areas of</h5>
-      <h2>`Interest & Expertise</h2>
+      <h2 className='about__header'>Skills & Expertise</h2>
       <div className='container about__container'>
-        <div className='about__me'>
-          <div className='about__me-image'>
-            <img src={mars} alt='About Me' />
-          </div>
-        </div>
         <div className='about__content'>
           <div className='about__cards'>
             <article className='about__card'>
@@ -44,6 +40,11 @@ const About = () => {
                 Development.
               </small>
             </article>
+          </div>
+          <div className='about__me'>
+            <div className='about__me-image'>
+              <img src={mars} alt='About Me' />
+            </div>
           </div>
         </div>
       </div>

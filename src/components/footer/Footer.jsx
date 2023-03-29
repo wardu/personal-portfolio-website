@@ -6,18 +6,12 @@ import { AiOutlineGithub } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer>
-      <a href='#' className='footer__logo'>
-        Warren Dubery
-      </a>
       <ul className='permalinks'>
         <li>
-          <a href='#'>Home</a>
+          <a href='#'>⬆ Top</a>
         </li>
         <li>
-          <a href='#about'>About</a>
-        </li>
-        <li>
-          <a href='#services'>Services</a>
+          <a href='#portfolio'>⬆ Portfolio</a>
         </li>
       </ul>
       <div className='footer__socials'>
@@ -29,7 +23,7 @@ const Footer = () => {
         </a>
       </div>
       <div className='footer__copyright'>
-        <small>&copy; Warren 2022</small>
+        <small>&copy; Warren Dubery 2023</small>
       </div>
     </footer>
   );

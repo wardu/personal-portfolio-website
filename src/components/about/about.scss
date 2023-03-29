@@ -1,3 +1,11 @@
+.about__header {
+  padding-top: 2.5em;
+}
+
+.about__me {
+  padding-top: 2em;
+}
+
 .about__container {
   display: grid;
   grid-template-columns: 35% 50%;
@@ -23,7 +31,7 @@
 }
 
 .about__card {
-  background: var(--color-bg-variant);
+  background: var(--color-secondary-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;

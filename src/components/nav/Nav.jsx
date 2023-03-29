@@ -1,10 +1,11 @@
-import { FiHome } from "react-icons/fi";
-import { CgProfile } from "react-icons/cg";
-import { AiOutlineFolderView } from "react-icons/ai";
-import { IoHammerOutline } from "react-icons/io5";
-import { BsFillChatDotsFill } from "react-icons/bs";
 import { useState } from "react";
 
+// Icons
+import { FiHome } from "react-icons/fi";
+import { AiOutlineFolderView } from "react-icons/ai";
+import { BsFillChatDotsFill } from "react-icons/bs";
+
+// Styles
 import "./nav.scss";
 
 const Nav = () => {
@@ -16,35 +17,29 @@ const Nav = () => {
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
-        <FiHome />
+        <p>
+          <FiHome /> Home
+        </p>
       </a>
-      <a
-        href='#about'
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
-        <CgProfile />
-      </a>
+
       <a
         href='#portfolio'
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
-        <AiOutlineFolderView />
+        <p>
+          <AiOutlineFolderView /> Portfolio
+        </p>
       </a>
-      <a
-        href='#services'
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
-      >
-        <IoHammerOutline />
-      </a>
+
       <a
         href='#contact'
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
-        <BsFillChatDotsFill />
+        <p>
+          <BsFillChatDotsFill /> Contact
+        </p>
       </a>
     </nav>
   );

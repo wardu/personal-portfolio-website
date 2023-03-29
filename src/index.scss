@@ -12,10 +12,13 @@
 
 :root {
   --color-bg: #ffffff;
-  --color-bg-variant: #5163564e;
-  --color-primary: #310826;
-  --color-primary-variant: #3dabde;
-  --color-white: rgb(0, 0, 0);
+  --color-bg-variant: #77216f;
+  --color-primary: #2c001e;
+  --color-primary-variant: #5e2750;
+  --color-secondary: #dd4814;
+  --color-secondary-variant: #aea79f;
+  --color-tertiary: #333333;
+  --color-white: #ffffff;
   --color-light: #000000;
 
   --transition: all 400ms ease;
@@ -36,7 +39,7 @@ html {
 body {
   font-family: "Red Hat Mono", monospace;
   background: var(--color-bg);
-  color: black;
+  color: var(--color-bg-variant);
   line-height: 1.7;
 }
 
@@ -99,8 +102,8 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--color-white);
-  color: var(--color-bg);
+  background: var(--color-secondary);
+  color: var(--color-secondary-variant);
   border-color: transparent;
 }
 

@@ -10,14 +10,6 @@ footer a {
   color: var(--color-bg);
 }
 
-.footer__logo {
-  color: white;
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  display: inline-block;
-}
-
 .permalinks {
   display: flex;
   flex-wrap: wrap;
@@ -35,7 +27,7 @@ footer a {
 
 .footer__socials a {
   background: var(--color-bg);
-  color: var(--color-white);
+  color: var(--color-primary);
   padding: 0.8rem;
   border-radius: 0.7rem;
   display: flex;

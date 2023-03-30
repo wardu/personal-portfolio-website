@@ -15,11 +15,11 @@ export const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Blackjack Game",
+    title: "LJT Carpentry",
     blurb:
-      "An implementation of the classic casino game Blackjack. This project was built using JQuery. The game is playable on desktop and mobile devices.",
-    github: "https://github.com/wardu/blackjack",
-    demo: "https://wardu.github.io/blackjack/",
+      "A website for a local carpentry business. Built using React and styled with Sass.",
+    github: "https://github.com/wardu/ljt-carpentary",
+    demo: "https://www.ljt-carpentry.co.uk/",
   },
   {
     id: 3,

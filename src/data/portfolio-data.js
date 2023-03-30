@@ -8,7 +8,7 @@ export const data = [
     image: IMG1,
     title: "Mars DAO",
     blurb:
-      "An MVP frontend to Mars DAO (Decentralised Autonomous Organisation). DAOs are made possible through blockchain technology. This project is a proof-of-concept and currently uses a traditional backend for data saving and retrieval. ",
+      "This MVP frontend for Mars DAO showcases decentralized governance on the blockchain. Users can vote on proposals and allocate resources. A proof-of-concept using traditional data storage.",
     github: "https://github.com/wardu/Mars-DAO",
     demo: "https://mars-dao-wardu.vercel.app/",
   },
@@ -17,7 +17,7 @@ export const data = [
     image: IMG2,
     title: "LJT Carpentry",
     blurb:
-      "A website for a local carpentry business. Built using React and styled with Sass.",
+      "A website for a local carpentry business. Built using React and styled with Sass. The site is fully responsive and features a contact form. Currently hosted on Vercel.",
     github: "https://github.com/wardu/ljt-carpentary",
     demo: "https://www.ljt-carpentry.co.uk/",
   },
@@ -26,7 +26,7 @@ export const data = [
     image: IMG3,
     title: "In Stock Warehouse App",
     blurb:
-      "Built in collaboration, this app is designed to help warehouse managers keep track of stock levels. The app is built within the MVP design framework.",
+      "Developed collaboratively, this web app assists warehouse managers in inventory management using the Model-View-Controller (MVC) framework. Built using Node.js, Express, and MongoDB.",
     github: "https://github.com/wardu/inStock",
     demo: "#",
   },

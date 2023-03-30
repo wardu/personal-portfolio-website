@@ -8,10 +8,10 @@
   padding: 1em 0 1em 0;
 }
 .portfolio__item {
-  background: var(--color-secondary-variant);
+  background: var(--color-white);
   padding: 1.3rem;
-  border-radius: 2rem;
-  border: solid 1px transparent;
+  border-radius: 0.5em;
+  border: solid 1px var(--color-primary-variant);
   transition: var(--transition);
 }
 
@@ -21,7 +21,7 @@
 }
 
 .portfolio__item-image {
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 

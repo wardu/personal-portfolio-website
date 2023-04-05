@@ -10,7 +10,7 @@ export const data = [
     blurb:
       "This MVP frontend for Mars DAO showcases decentralized governance on the blockchain. Users can vote on proposals and allocate resources. A proof-of-concept using traditional data storage.",
     github: "https://github.com/wardu/Mars-DAO",
-    demo: "https://mars-ilrcfz885-wardu.vercel.app/",
+    demo: "https://mars-dao-git-develop-wardu.vercel.app/",
   },
   {
     id: 2,

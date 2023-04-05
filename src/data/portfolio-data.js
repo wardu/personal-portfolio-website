@@ -28,6 +28,6 @@ export const data = [
     blurb:
       "Developed collaboratively, this web app assists warehouse managers in inventory management using the Model-View-Controller (MVC) framework. Built using Node.js, Express, and MongoDB.",
     github: "https://github.com/wardu/inStock",
-    demo: "#",
+    demo: "https://in-stock-ebon.vercel.app/",
   },
 ];

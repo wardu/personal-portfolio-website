@@ -9,11 +9,7 @@ const Footer = () => {
   return (
     <footer>
       <div className='footer__socials'>
-        <a
-          href='https://medium.com/@WarrenDubery_97922'
-          target='blank'
-          rel='noreferrer'
-        >
+        <a href='https://medium.com/@Wardu' target='blank' rel='noreferrer'>
           <FaMediumM />
         </a>
         <a
